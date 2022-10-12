@@ -1,0 +1,10 @@
+prefix=E:/downloadBaidu/a_png/aa_libjpeg-turbo/build-libjpeg-turbo-msvc2015-Debug/../libjpeg-turbo_19.0.24215.1_install
+exec_prefix=E:/downloadBaidu/a_png/aa_libjpeg-turbo/build-libjpeg-turbo-msvc2015-Debug/../libjpeg-turbo_19.0.24215.1_install
+libdir=E:/downloadBaidu/a_png/aa_libjpeg-turbo/build-libjpeg-turbo-msvc2015-Debug/../libjpeg-turbo_19.0.24215.1_install/lib
+includedir=E:/downloadBaidu/a_png/aa_libjpeg-turbo/build-libjpeg-turbo-msvc2015-Debug/../libjpeg-turbo_19.0.24215.1_install/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.1.4
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
